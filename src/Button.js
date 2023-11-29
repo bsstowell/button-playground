@@ -10,3 +10,16 @@ export const Button = (props) => {
         </button>
     )
 }
+
+//these do the same thing...
+// function printThis(string) { console.log(string) }
+// const printThis = (string) => { console.log(string) }
+
+/*
+    `button ${className}`
+
+    this is called string templating
+    Whole string is wrapped in backticks (``)
+    any variable is wrapped in ${} within the backticks
+*/
+

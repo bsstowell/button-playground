@@ -2,6 +2,7 @@ import "./App.css"
 import {ColorfulButton} from "./SpecialButtons/ColorfulButton";
 import {SizedButton} from "./SpecialButtons/SizedButton";
 import {Button} from "./Button";
+import {Counter} from "./Counter";
 
 
 function App() {
@@ -19,10 +20,7 @@ function App() {
     return (
         <div className="container">
             <div>
-                <Button
-                    onClick={() => console.log('...from the other side')}
-                    content="Hello"
-                />
+               <Counter/>
             </div>
             <div>
                 {
